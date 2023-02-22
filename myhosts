@@ -4,13 +4,3 @@
 
 [myamazonnode]
 172.31.40.117
-
-
-
-
-[myubuntunode:vars]
-webpackonubuntu = apache2222
-
-
-[myamazonnode:vars]
-webpackonamazon = httpd

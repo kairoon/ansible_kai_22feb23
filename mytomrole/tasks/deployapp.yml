@@ -1,0 +1,6 @@
+--- 
+- name: deploy java application
+  ansible.builtin.get_url:
+    url: http://18.224.2.110:8080/gameoflife/#/
+    dest: /opt/tomcat/webapps/gameoflife.war
+    force_basic_auth: yes

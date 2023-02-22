@@ -10,7 +10,7 @@
     apt: 
       name: apache
       state: present 
-    ignore_error: true
+    ignore_errors: true
   - name: install wget 
     apt:
       name: wget 

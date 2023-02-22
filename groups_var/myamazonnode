@@ -1,2 +1,2 @@
 --- 
-webpackonamazon = httpd
+webpackonamazon: httpd

@@ -1,0 +1,5 @@
+--- 
+- hosts: 172.31.35.15
+  become: yes
+  roles:
+  - {role: mytomrole, when: ansible_os_familt=="Debian"}

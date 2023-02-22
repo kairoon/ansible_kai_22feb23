@@ -20,3 +20,4 @@
       url: https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04
       dest: /home/ubuntu/jenkins.war
     force_basic_path: true
+    ignore_errors: true

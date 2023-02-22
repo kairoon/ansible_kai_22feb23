@@ -8,4 +8,14 @@
   - name: i want to display my result 
     debug: 
       msg: "{{myresult}}"
+  - name: install git 
+    apt: 
+      name: git 
+      status: present 
+    when: myresult.stderr!=" "
+  - name: install apache2
+    apt: 
+      name: apache2 
+      state: present 
+    when: myresult.stderr==" "
   
